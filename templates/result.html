@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résultat</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container mt-5 text-center" style="max-width: 550px;">
+    <div class="card shadow border-0 p-4">
+        <h2 class="fw-bold text-dark mb-4">Résultat de l'analyse</h2>
+        
+        <div class="alert alert-info py-3 mb-4">
+            <div class="row align-items-center">
+                <div class="col border-end">
+                    <small class="text-uppercase text-muted d-block tracking-wider">Diagnostic</small>
+                    <span class="fs-5 fw-bold text-dark">{{ result }}</span>
+                </div>
+                <div class="col">
+                    <small class="text-uppercase text-muted d-block tracking-wider">Confiance</small>
+                    <span class="fs-5 fw-bold text-dark">{{ prob }}%</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-4 bg-light p-3 rounded border">
+            <img src="{{ img }}" class="img-fluid rounded shadow-sm" style="max-height: 250px; object-fit: contain;" alt="Analyse preview">
+        </div>
+        
+        <a class="btn btn-primary w-100 py-2 fw-semibold" href="/dashboard">Retour au tableau de bord</a>
+    </div>
+</div>
+</body>
+</html>

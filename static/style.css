@@ -1,0 +1,80 @@
+/* body{
+    background: white;
+    font-family: Arial;
+}
+.container{
+    width: 400px;
+    margin:auto;
+    margin-top:80px;
+}
+.card{
+    padding:20px;
+    background: white;
+    border-radius:10px;
+    box-shadow: 0px 0px 10px #CCC;
+}
+input.button{
+    width: white;
+    padding: 10px;
+    margin:8px 0;
+}
+button{
+    background: #007bff;
+    color: white;
+    margin: 8px 0;
+}
+button:hover{
+    background:#0056b3 ;
+}s */
+
+/* Custom Global Styles */
+body {
+    background-color: #f4f7f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Authentication Card Styling (Login) */
+.auth-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    background: #ffffff;
+    padding: 2.5rem;
+    width: 100%;
+    max-width: 420px;
+}
+
+/* Form Controls Customization */
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+}
+
+/* Table Enhancements */
+.custom-table {
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
+}
+
+.custom-table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    color: #495057;
+}
+
+/* Patient Image Thumbnails */
+.patient-thumb {
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid #dee2e6;
+}
