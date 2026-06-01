@@ -41,7 +41,7 @@ SKIN_CANCER_APP/
 │
 ├── app.py
 ├── model/
-│   └── vgg16_skin_cancer.h5   # (not included in repo)
+│   └── vgg16_malignant_benign.h5  # (not included in repo)  
 │
 ├── templates/
 │   ├── login.html
@@ -108,7 +108,7 @@ https://colab.research.google.com/drive/1iwNHiRUTciuZmTGZPbU9bN3SD-KPhc1E?usp=sh
 ### 1. Clone repository
 
 ```bash
-git clone https://github.com/your-username/skin-cancer-app.git
+git clone https://github.com/kenzamehrez/skin-cancer-app.git
 cd skin-cancer-app
 ```
 
