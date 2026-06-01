@@ -55,8 +55,7 @@ SKIN_CANCER_APP/
 │   └── uploads/   # stores uploaded mock patient images temporarily for prediction & display
 │
 ├── skin_cancer_db.sql   # ready-to-use SQL file for MySQL setup
-│
-└── requirements.txt
+
 ```
 
 ---
@@ -96,7 +95,7 @@ model/vgg16_malignant_benign.h5
 
 ## 📓 Notebook (Training Code)
 
-The model was trained using a Jupyter Notebook.
+The model was trained using a Google Colab Notebook.
 
 ### 📥 Download Notebook:
 
