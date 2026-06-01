@@ -48,7 +48,7 @@ SKIN_CANCER_APP/
 │   ├── dashboard.html
 │   ├── predict.html
 │   ├── result.html
-│   └── patients.html
+│   └── patient.html
 │
 ├── static/
 │   ├── style.css
