@@ -25,13 +25,13 @@ The system also stores patient data and prediction history in a **MySQL database
 ## 🖥️ Project Interface Screenshots
 
 ### 🔐 Login Page
-![Login page](images/login.png)
+![Login page](Images/login.png)
 ### 📊 Dashboard Page
-![Dashboard page](images/dashboard.png)
+![Dashboard page](Images/dashboard.png)
 ### 🧪 Prediction Result Page
-![Predict page](images/predict.png)
+![Predict page](Images/predict.png)
 ### 🧪 Result Page
-![Predict page](images/result.png)
+![Result page](Images/result.png)
 ---
 
 ## 📁 Project Structure
